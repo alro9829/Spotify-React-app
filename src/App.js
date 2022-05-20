@@ -93,7 +93,7 @@ function App() {
   };
 
   return (
-    <div class="container">
+    <div className="container">
       <form onSubmit={buttonClicked}>
         <Dropdown
           label="Genre: "
@@ -107,11 +107,11 @@ function App() {
           selectedValue={playlist.selectedPlaylist}
           changed={playlistChanged}
         />
-        <div class="col-sm-1 row form-group px-0">
-          <button class="btn btn-success ">Search</button>
+        <div className="col-sm-1 row form-group px-0">
+          <button className="btn btn-success ">Search</button>
         </div>
         <br></br>
-        <div class="row">
+        <div className="row">
           <Tracklist items={tracks.listOfTracks} clicked={tracklistClicked} />
           {trackDetail && <Trackinfo {...trackDetail} />}
         </div>

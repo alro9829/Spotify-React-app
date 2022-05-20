@@ -6,12 +6,12 @@ const Dropdown = (props) => {
   };
 
   return (
-    <div class="col-sm-3 form-group row px-0">
-      <label class="row form-label col-sm-2">{props.label}</label>
+    <div className="col-sm-3 form-group row px-0">
+      <label className="row form-label col-sm-2">{props.label}</label>
       <select
         value={props.selectedValue}
         onChange={dropdownChanged}
-        class="form-control form-control-sm col-sm-10"
+        className="form-control form-control-sm col-sm-10"
       >
         <option key={0}>Select an option...</option>
         {props.options.map((item, idx) => (
