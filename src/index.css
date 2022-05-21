@@ -28,13 +28,3 @@ label {
 .btn-success:hover {
   background-color: #4daf64 !important;
 }
-
-img.track {
-  border: 1px solid #8a8a8a;
-}
-
-span.caret {
-  position: absolute;
-  left: 90%;
-  top: 45%;
-}
