@@ -1,8 +1,4 @@
-A React app that uses Spotify's API to display the top 10 songs of popular playlists based on genre.
-
-To run this application: npm start
-
-Due to having to keep my client secret hidden from users, the API requests will not go through unless credentials are added, so I have included a screenshot of the website in this repository.
+#### A React app that uses Spotify's API to display the top 10 songs of popular playlists based on genre.
 
 # Getting Started with Create React App
 
